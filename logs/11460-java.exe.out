@@ -1,0 +1,91 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 864milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 864"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60682"}
+{"logLevel":"info","message":"Listening on port:60682"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkCategoriesPage' and 'com.ozdilekteyim.app.StepImplementation.checkCategoriesPage'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfasının açıldığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.writePassword' and 'com.ozdilekteyim.app.StepImplementation.writePassword'"}
+{"logLevel":"debug","message":"Found Şifreyi gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.goToCategories' and 'com.ozdilekteyim.app.StepImplementation.goToCategories'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfasını aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.selectPantolon' and 'com.ozdilekteyim.app.StepImplementation.selectPantolon'"}
+{"logLevel":"debug","message":"Found Pantolon kategorisini aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.clickStartShopping' and 'com.ozdilekteyim.app.StepImplementation.clickStartShopping'"}
+{"logLevel":"debug","message":"Found Alışverişe başla butonuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.scrollDown' and 'com.ozdilekteyim.app.StepImplementation.scrollDown'"}
+{"logLevel":"debug","message":"Found Sayfayı aşağı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.addCart' and 'com.ozdilekteyim.app.StepImplementation.addCart'"}
+{"logLevel":"debug","message":"Found Seçilen ürünü sepete ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.login' and 'com.ozdilekteyim.app.StepImplementation.login'"}
+{"logLevel":"debug","message":"Found Giriş yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.randomSelectProduct' and 'com.ozdilekteyim.app.StepImplementation.randomSelectProduct'"}
+{"logLevel":"debug","message":"Found Ürünlerden rastgele bir ürün seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkProductDetailsPage' and 'com.ozdilekteyim.app.StepImplementation.checkProductDetailsPage'"}
+{"logLevel":"debug","message":"Found Ürün detay sayfasının açıldığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkShoppingPage' and 'com.ozdilekteyim.app.StepImplementation.checkShoppingPage'"}
+{"logLevel":"debug","message":"Found Alışveriş sayfasının açıldığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.selectKadinFromCategories' and 'com.ozdilekteyim.app.StepImplementation.selectKadinFromCategories'"}
+{"logLevel":"debug","message":"Found Menüden 'Kadın' seçeneğine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkLoginPage' and 'com.ozdilekteyim.app.StepImplementation.checkLoginPage'"}
+{"logLevel":"debug","message":"Found Giriş yapma sayfasının açıldığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkOpenApp' and 'com.ozdilekteyim.app.StepImplementation.checkOpenApp'"}
+{"logLevel":"debug","message":"Found Uygulamanın çalıştığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.clickBack' and 'com.ozdilekteyim.app.StepImplementation.clickBack'"}
+{"logLevel":"debug","message":"Found Geri butonuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.writeEmail' and 'com.ozdilekteyim.app.StepImplementation.writeEmail'"}
+{"logLevel":"debug","message":"Found Kullanıcı adını gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.clickFavorites' and 'com.ozdilekteyim.app.StepImplementation.clickFavorites'"}
+{"logLevel":"debug","message":"Found Favoriler butonuna tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tGeri butonuna bas : public void clickBack() throws InterruptedException"}
+{"logLevel":"debug","message":"\tUygulamanın çalıştığını kontrol et : public void checkOpenApp() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKategoriler sayfasını aç : public void goToCategories() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGiriş yap : public void login() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKullanıcı adını gir : public void writeEmail() throws InterruptedException"}
+{"logLevel":"debug","message":"\tÜrünlerden rastgele bir ürün seç : public void randomSelectProduct()"}
+{"logLevel":"debug","message":"\tGiriş yapma sayfasının açıldığını kontrol et : public void checkLoginPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSeçilen ürünü sepete ekle : public void addCart() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSayfayı aşağı kaydır : public void scrollDown() throws InterruptedException"}
+{"logLevel":"debug","message":"\tMenüden 'Kadın' seçeneğine tıkla : public void selectKadinFromCategories() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKategoriler sayfasının açıldığını kontrol et : public void checkCategoriesPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tPantolon kategorisini aç : public void selectPantolon() throws InterruptedException"}
+{"logLevel":"debug","message":"\tŞifreyi gir : public void writePassword() throws InterruptedException"}
+{"logLevel":"debug","message":"\tAlışveriş sayfasının açıldığını kontrol et : public void checkShoppingPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tAlışverişe başla butonuna bas : public void clickStartShopping() throws InterruptedException"}
+{"logLevel":"debug","message":"\tÜrün detay sayfasının açıldığını kontrol et : public void checkProductDetailsPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tFavoriler butonuna tıkla : public void clickFavorites() throws InterruptedException"}
+Android  testi başlıyor
+Şub 02, 2022 3:10:23 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Uygulamanın çalıştığını kontrol et' using 'class com.ozdilekteyim.app.StepImplementation.checkOpenApp"}
+{"logLevel":"debug","message":"Executing 'Alışverişe başla butonuna bas' using 'class com.ozdilekteyim.app.StepImplementation.clickStartShopping"}
+{"logLevel":"debug","message":"Executing 'Alışveriş sayfasının açıldığını kontrol et' using 'class com.ozdilekteyim.app.StepImplementation.checkShoppingPage"}
+{"logLevel":"debug","message":"Executing 'Kategoriler sayfasını aç' using 'class com.ozdilekteyim.app.StepImplementation.goToCategories"}
+{"logLevel":"debug","message":"Executing 'Kategoriler sayfasının açıldığını kontrol et' using 'class com.ozdilekteyim.app.StepImplementation.checkCategoriesPage"}
+{"logLevel":"debug","message":"Executing 'Menüden 'Kadın' seçeneğine tıkla' using 'class com.ozdilekteyim.app.StepImplementation.selectKadinFromCategories"}
+{"logLevel":"debug","message":"Executing 'Pantolon kategorisini aç' using 'class com.ozdilekteyim.app.StepImplementation.selectPantolon"}
+{"logLevel":"debug","message":"Executing 'Sayfayı aşağı kaydır' using 'class com.ozdilekteyim.app.StepImplementation.scrollDown"}
+{"logLevel":"debug","message":"Executing 'Sayfayı aşağı kaydır' using 'class com.ozdilekteyim.app.StepImplementation.scrollDown"}
+{"logLevel":"debug","message":"Executing 'Ürünlerden rastgele bir ürün seç' using 'class com.ozdilekteyim.app.StepImplementation.randomSelectProduct"}
+{"logLevel":"debug","message":"Executing 'Ürün detay sayfasının açıldığını kontrol et' using 'class com.ozdilekteyim.app.StepImplementation.checkProductDetailsPage"}
+{"logLevel":"debug","message":"Executing 'Favoriler butonuna tıkla' using 'class com.ozdilekteyim.app.StepImplementation.clickFavorites"}
+{"logLevel":"debug","message":"Executing 'Giriş yapma sayfasının açıldığını kontrol et' using 'class com.ozdilekteyim.app.StepImplementation.checkLoginPage"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı adını gir' using 'class com.ozdilekteyim.app.StepImplementation.writeEmail"}
+{"logLevel":"debug","message":"Executing 'Şifreyi gir' using 'class com.ozdilekteyim.app.StepImplementation.writePassword"}
+{"logLevel":"debug","message":"Executing 'Giriş yap' using 'class com.ozdilekteyim.app.StepImplementation.login"}
+{"logLevel":"debug","message":"Executing 'Geri butonuna bas' using 'class com.ozdilekteyim.app.StepImplementation.clickBack"}
+{"logLevel":"debug","message":"Executing 'Geri butonuna bas' using 'class com.ozdilekteyim.app.StepImplementation.clickBack"}
+{"logLevel":"debug","message":"Executing 'Ürünlerden rastgele bir ürün seç' using 'class com.ozdilekteyim.app.StepImplementation.randomSelectProduct"}
+{"logLevel":"debug","message":"Executing 'Seçilen ürünü sepete ekle' using 'class com.ozdilekteyim.app.StepImplementation.addCart"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

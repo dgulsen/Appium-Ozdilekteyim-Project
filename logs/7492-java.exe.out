@@ -1,0 +1,48 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 625milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 625"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58818"}
+{"logLevel":"info","message":"Listening on port:58818"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkCategoriesPage' and 'com.ozdilekteyim.app.StepImplementation.checkCategoriesPage'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfasının açıldığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.goToCategories' and 'com.ozdilekteyim.app.StepImplementation.goToCategories'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfasını aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.selectPantolon' and 'com.ozdilekteyim.app.StepImplementation.selectPantolon'"}
+{"logLevel":"debug","message":"Found Pantolon kategorisini aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkShoppingPage' and 'com.ozdilekteyim.app.StepImplementation.checkShoppingPage'"}
+{"logLevel":"debug","message":"Found Alışveriş sayfasının açıldığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.clickStartShopping' and 'com.ozdilekteyim.app.StepImplementation.clickStartShopping'"}
+{"logLevel":"debug","message":"Found Alışverişe başla butonuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.scrollDown' and 'com.ozdilekteyim.app.StepImplementation.scrollDown'"}
+{"logLevel":"debug","message":"Found İki kez sayfayı aşağı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.randomSelectProduct' and 'com.ozdilekteyim.app.StepImplementation.randomSelectProduct'"}
+{"logLevel":"debug","message":"Found Ürünlerden rastgele bir ürün seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.selectKadinFromCategories' and 'com.ozdilekteyim.app.StepImplementation.selectKadinFromCategories'"}
+{"logLevel":"debug","message":"Found Menüden 'Kadın' seçeneğine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.ozdilekteyim.app.StepImplementation.checkOpenApp' and 'com.ozdilekteyim.app.StepImplementation.checkOpenApp'"}
+{"logLevel":"debug","message":"Found Uygulamanın çalıştığını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUygulamanın çalıştığını kontrol et : public void checkOpenApp() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKategoriler sayfasını aç : public void goToCategories() throws InterruptedException"}
+{"logLevel":"debug","message":"\tPantolon kategorisini aç : public void selectPantolon() throws InterruptedException"}
+{"logLevel":"debug","message":"\tAlışveriş sayfasının açıldığını kontrol et : public void checkShoppingPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tİki kez sayfayı aşağı kaydır : public void scrollDown() throws InterruptedException"}
+{"logLevel":"debug","message":"\tAlışverişe başla butonuna bas : public void clickStartShopping() throws InterruptedException"}
+{"logLevel":"debug","message":"\tÜrünlerden rastgele bir ürün seç : public void randomSelectProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tMenüden 'Kadın' seçeneğine tıkla : public void selectKadinFromCategories() throws InterruptedException"}
+{"logLevel":"debug","message":"\tKategoriler sayfasının açıldığını kontrol et : public void checkCategoriesPage() throws InterruptedException"}
+Android  testi başlıyor
+Şub 02, 2022 1:29:45 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Uygulamanın çalıştığını kontrol et' using 'class com.ozdilekteyim.app.StepImplementation.checkOpenApp"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
